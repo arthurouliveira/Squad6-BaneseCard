@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body #titulo {
+    color: white;
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #198754;
+    margin-top: 50px;
+    height: 120px;
+    width: 1350px;
+    margin-left: 90px;
+    padding-top: 30px;
+    padding-left: 490px;
+}
+
+.bnt {
+    width: 1150px;
+    height: 250px;
+    margin-left: 190px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #38B55F 55.49%, rgba(27, 27, 27, 0.16) 55.5%);
+    border: none;
+    cursor: pointer;
+}
+
+.bnt #mes {
+    margin-top: 10px;
+    margin-left: 15px;
+    z-index: -1000;
+}
+
+#promocoes {
+    color: #333;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    z-index: 1099;
+}
+
+#detalhes {
+    width: 100px;
+    color: #333;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+#participando {
+    width: 250px;
+    height: 30px;
+    color: #333;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+    background-color: #38B55F;
+    border-radius: 5px;
+
+}
+
+#periodo {
+    width: 250px;
+    color: #333;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #38B55F;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 860px;
+}

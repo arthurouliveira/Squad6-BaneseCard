@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#cabecalho img {
+    margin-left: 10px;
+    border-radius: 25px;
+    width: 130px;
+    margin-top: -20px;
+    height: 110px;
+}
+
+#opcao-campanha {
+    position: absolute;
+    background-color: rgba(252, 252, 252, 1);
+    padding: 7px 100px 7px 7px;
+    font-size: 25px;
+    border: 1px solid rgba(252, 252, 252, 1);
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #38B55F,#38B55F, #38B55F, white, white, white);
+    overflow-x: hidden;
+}
+
+.txt-cabecalho {
+    position: absolute;
+    margin-left: 435px;
+    margin-top: -95px;
+}
+
+#card-cabecalho {
+    margin-top: -68px;
+    font-family: "Rouge Script", cursive;
+    color: rgba(229, 255, 0, 1);
+    margin-left: 550px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#cash-cabecalho {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#img-campanha {
+    width: 35%;
+    margin-left: 65%;
+    border-radius: 5px;
+}
+
+#campanha-destaque h1 {
+    margin-left: 69.5%;
+    font-family: "Outfit", sans-serif;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    color: rgba(51, 51, 51, 1);
+}
+
+#botao-campanha-destaque {
+    padding: 10px;
+    background-color: rgba(0, 102, 57, 1);
+    border: 1px solid rgba(0, 102, 57, 1);
+    border-radius: 5px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-left: 78%;
+    margin-top: 35px;
+}
+
+#botao-1 {
+    padding: 7px;
+    background-color: rgba(0, 102, 57, 1);
+    border: 1px solid rgba(0, 102, 57, 1);
+    border-radius: 5px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-left: 74%;
+    margin-top: 35px;
+}
+
+#botao-2 {
+    padding: 7px;
+    background-color: rgba(0, 102, 57, 1);
+    border: 1px solid rgba(0, 102, 57, 1);
+    border-radius: 5px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+#campo-pesquisa {
+    margin-top: -36.5%;
+    font-family: "Outfit", sans-serif;
+    margin-left: 20px;
+    border: 3px solid black;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+}
+
+#heading h2 {
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 5px;
+    padding-right: 380px;
+    padding-top: 5px;
+    font-size: 27px;
+}
+
+#campanha-nome {
+    background-color: rgba(239, 254, 255, 1);
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 17px;
+    padding-right: 464px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+#campanha-nome input {
+    outline: none;
+    padding-left: 5px;
+    font-family: "Outfit", sans-serif;
+    color: rgba(102, 102, 102, 1);
+    background-color: rgba(239, 254, 255, 1);
+    border: none;
+    padding-bottom: 7px;
+}
+
+#campanha-nome label {
+    padding-left: 5px;
+    font-family: "Outfit", sans-serif;
+    color: rgba(102, 102, 102, 1);
+}
+
+#datas-campanha {
+    display: flex;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#datas-campanha label {
+    padding-left: 5px;
+    font-family: "Outfit", sans-serif;
+    color: rgba(102, 102, 102, 1);
+}
+
+#datas-campanha input {
+    outline: none;
+    padding-left: 5px;
+    font-family: "Outfit", sans-serif;
+    color: rgba(102, 102, 102, 1);
+    background-color: rgba(239, 254, 255, 1);
+    border: none;
+    padding-bottom: 7px;
+}
+
+#data-fim input, #data-fim-label {
+    margin-left: 10px;
+}
+
+#data-fim-label, #data-inicio-label {
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    background-color: rgba(239, 254, 255, 1);
+    padding-right: 187px;
+}
+
+#status-campanha {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    background-color: rgba(239, 254, 255, 1);
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    padding-right: 5px;
+}
+
+#status-campanha label {
+    padding-left: 5px;
+    font-family: "Outfit", sans-serif;
+    color: rgba(102, 102, 102, 1);
+}
+
+#status-campanha select {
+    outline: none;
+    padding-left: 2px;
+    font-family: "Outfit", sans-serif;
+    background-color: rgba(239, 254, 255, 1);
+    border: none;
+    padding-bottom: 7px;
+    padding-right: 229px;
+}
+
+#pesquisar-campanha {
+    display: inline-flex;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Outfit", sans-serif;
+    background-color: rgba(0, 102, 57, 1);
+    margin-left: 180px;
+    border: 1px solid rgba(0, 102, 57, 1);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#pesquisar-campanha h4 {
+    margin-top: 4px;
+}
+
+#pesquisar-campanha img {
+    width: 25px;
+    height: 25px;
+}
+
+.resultados-campanha {
+    margin-left: 12px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Outfit", sans-serif;
+    margin-top: 45px;
+    line-height: 25px;
+}
+
+#natal {
+    margin-top: 15px;
+    background-color: rgba(6, 144, 83, 1);
+    padding: 5px;
+    border: 1px solid rgba(6, 144, 83, 1);
+    border-radius: 5px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#informacoes-borda-natal {
+    margin-left: 502px;
+    margin-top: -49px;
+}
+
+#turista {
+    margin-top: 10px;
+    background-color: rgba(6, 144, 83, 1);
+    padding: 5px;
+    border: 1px solid rgba(6, 144, 83, 1);
+    border-radius: 5px;
+    padding-right: 27px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#informacoes-borda-turista {
+    margin-left: 502px;
+    margin-top: -49px;
+}
+
+#maes {
+    background-color: rgba(6, 144, 83, 1);
+    padding: 5px;
+    border: 1px solid rgba(6, 144, 83, 1);
+    border-radius: 5px;
+    padding-right: 20px;
+    margin-top: 10px;
+    display: block;
+    width: 90.6%;
+}
+
+#informacoes-borda-maes {
+    margin-left: 502px;
+    margin-top: -49px;
+    white-space: nowrap;
+}
+
+#botao-exibir {
+    background-color: rgba(0, 102, 57, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 102, 57, 1);
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 41%;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

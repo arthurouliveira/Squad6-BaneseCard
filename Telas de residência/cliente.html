@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisar campanha - Cliente</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cabecalho">
+        <img src="assets/logo-banese-topo.png" alt="Logo do Banese">
+        <select name="" id="opcao-campanha">
+            <option value="Cliente">Cliente</option>
+            <option value="Administrador">Administrador</option>
+        </select>
+        <div>
+            <h1 id="cash-cabecalho" class="txt-cabecalho">Cashback</h1>
+            <h1 id="card-cabecalho" class="txt-cabecalho">Card</h1>
+        </div>
+    </div>
+    <div id="campanha-destaque">
+        <h1>Campanhas em Destaque:</h1>
+        <img src="assets/img-3.png" alt="" id="img-campanha">
+        <button id="botao-campanha-destaque">Ver minhas campanhas</button>
+    </div>
+    <div id="campo-pesquisa">
+        <header id="heading">
+            <h2 style="background-image: url(assets/fundo-input.jpeg);">Pesquisar Campanha</h2>
+        </header>
+        <div id="campanha-nome">
+            <label for="nome-campanha"> Nome da Campanha:<br>
+                <input type="text" id="nome-campanha">
+            </label>
+        </div>
+        <div id="datas-campanha">
+            <label for="data-inicio" id="data-inicio-label">Data de Início:<br>
+                <input type="date" id="data-inicio"><br>
+            </label>
+            <label for="data-fim" id="data-fim-label">Data de Fim:<br>
+                <input type="date" id="data-fim">
+            </label>
+        </div>
+        <div id="status-campanha"> 
+            <label for="campanha-status">Status:<br>
+                <select name="" id="campanha-status"> 
+                    <option value="Todos">Todos</option>
+                    <option value="Opção 1">Opção 1</option>
+                    <option value="Opção 2">Opção 2</option>
+                </select>
+            </label>
+        </div>
+        <div id="pesquisar-campanha">
+            <img src="assets/search-alt-2-regular-24.png" alt="">
+            <h4>Pesquisar</h4>
+        </div>
+        <div class="resultados-campanha">
+            <header>
+                <h2>Resultados:</h2>
+            </header>
+            <div id="natal">
+                <p>Natal com Banese Card<br>Data: dd/mm/aaaa a dd/mm/aaaa</p>
+                <div id="informacoes-borda-natal">
+                    <p>Status: Análise<br>Ver mais</p>
+                </div>
+            </div>
+        </div>
+        <div id="turista" class="resultados-campanha">
+            <p>Segundona do Turista<br>Data: Todas as Segundas-Feiras até Dezembro</p>
+            <div id="informacoes-borda-turista">
+                <p>Status: Ativa<br>Ver mais</p>
+            </div>
+        </div>
+        <div id="maes" class="resultados-campanha">
+            <p>Mês das Mães<br>Data: 01/05/2024 a 31/05/2024</p>
+            <div id="informacoes-borda-maes">
+                <p>Status: Expirou<br>Ver mais</p>
+            </div>
+        </div>
+        <button id="botao-exibir">Exibir todos</button>
+    </div>
+</body>
+</html>

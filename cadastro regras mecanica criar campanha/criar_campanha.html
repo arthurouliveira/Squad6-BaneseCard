@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Campanhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Criar Campanhas
+    </h1>
+
+    <section id="main">
+        <div class="container">
+            <div class="creation">
+                <form action="cadastrar_campanha" method="post" autocomplete="off">
+                    <p>
+                        <h3>Nome da Campanha</h3>
+                        <label for="nome-campanha"></label>
+                        <input type="text" id="nome-campanha" name="nome-campanha" placeholder="Nome da Campanha" required>
+                    </p>
+
+                    <p>
+                        <h3>Descrição</h3>
+                        <label for="descricao-campanha"></label>
+                        <input type="text" id="descricao-campanha" name="descricao-campanha" placeholder="Descrição da Campanha" required>
+                    </p>
+
+                    <p>
+                        <h3>Data de início</h3>
+                        <label for="data-inicio-campanha"></label>
+                        <input type="date" id="data-inicio-campanha" name="data-inicio-campanha" required>
+                    </p>
+
+                    <p>
+                        <h3>Data de Fim</h3>
+                        <label for="data-fim-campanha"></label>
+                        <input type="date" id="data-fim-campanha" name="data-inicio-campanha" required>
+                    </p>
+
+                    <p>
+                        <h3>Tipo de Benefício</h3>
+                        <label for="tipo-beneficio-campanha"></label>
+                        <select name="tipo-beneficio-campanha" id="tipo-beneficio-campanha">
+                            <option value="cashback-campanha" label="Cashback">
+                            <option value="desconto-campanha" label="Desconto">
+                            <option value="pontuacao-extra-campanha" label="Pontuação Extra">
+                        </select>
+                    
+                    </p>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <div class="button-container">
+        <button class="button" id="button">Próximo</button>
+    </div>
+
+    <script src="js/criar_campanha.js"></script>
+
+</body>
+</html>

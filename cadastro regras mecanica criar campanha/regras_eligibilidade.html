@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regras Elegebilidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Regras de Elegibilidade
+    </h1>
+
+    <section id="main">
+        <div class="container">
+            <div class="creation">
+                <form action="cadastrar_campanha" method="post" autocomplete="off">
+                    <p>
+                        <h3>Valor Mínimo da compra</h3>
+                        <label for="valor-minimo-compra"></label>
+                        <input type="number" id="valor-minimo-compra" name="valor-minimo-compra" placeholder="Valor Mínimo da compra" required>
+                    </p>
+
+                    <p>
+                        <h3>Produto</h3>
+                        <label for="produto-campanha"></label>
+                        <input type="text" id="produto-campanha" name="produto-campanha" placeholder="Descrição do Produto" required>
+                    </p>
+
+                    <p>
+                        <h3>Data de realização da compra</h3>
+                        <label for="data-compra-campanha"></label>
+                        <input type="date" id="data-compra-campanha" name="data-compra-campanha" required>
+                    </p>
+
+                    <p>
+                        <h3>Lojas Parceiras</h3>
+                        <label for="parceiros-campanha"></label>
+                        <input type="text" id="parceiros-campanha" name="parceiros-campanha" placeholder="Lojas Parceiras" required>
+                    </p>
+
+                    <p>
+                        <h3>MCC (Merchant Category Code)</h3>
+                        <label for="mcc-campanha"></label>
+                        <input type="number" id="valor-minimo-compra" name="valor-minimo-compra" placeholder="MCC" required>
+                    </p>
+
+                    <p>
+                        <h3>Modo de Entrada do PAN</h3>
+                        <label for="entrada-pan-campanha"></label>
+                        <input type="text" id="entrada-pan-campanha" name="entrada-pan-campanha" placeholder="Modo de Entrada do PAN" required>
+                    </p>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <div class="button-container">
+        <a href="criar_campanha.html" class="button">Voltar</a>
+        <a href="cadastro_usuario.html" class="button">Próximo</a>
+    </div>
+    
+
+    
+    
+</body>
+</html>
