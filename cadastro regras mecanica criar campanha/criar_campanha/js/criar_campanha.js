@@ -10,5 +10,5 @@ pb.addEventListener("click",function(){
         sessionStorage.setItem("name_camp",name_camp.value);
         sessionStorage.setItem("desc_name",desc_camp.value);
         window.location.href = "regras_eligibilidade.html";
-    } 
+    }
 });
