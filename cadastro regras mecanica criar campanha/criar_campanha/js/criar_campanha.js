@@ -18,5 +18,4 @@ if(edc == "true")
 {
     name_camp.value = sessionStorage.getItem("name_camp");
     desc_camp.value = sessionStorage.getItem("desc_name");
-    sessionStorage.setItem("edc",false);
 }
