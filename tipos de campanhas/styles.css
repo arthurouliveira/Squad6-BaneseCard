@@ -95,3 +95,12 @@ header {
     bottom: 20px;
     color: black;
 }
+
+.pc{
+    color: black;
+    padding-left: 92%;
+}
+
+.pc:hover{
+    cursor: pointer;
+}
